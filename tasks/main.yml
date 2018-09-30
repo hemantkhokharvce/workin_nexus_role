@@ -93,5 +93,5 @@
     - restart nexus
 
 - name: Register service with chkconfig system
-  service: name=nexus enabled=yes
+  service: name=nexus enabled=true
 
