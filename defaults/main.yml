@@ -5,7 +5,7 @@ nexus_version: 'latest'
 nexus_version: '2.10.0-02'
 nexus_package: 'nexus-{{ nexus_version }}-bundle.tar.gz'
 nexus_installation_dir: '/opt/'
-nexus_working_dir: '/var/nexus_run/'
+nexus_working_dir: '/var/nexus_run'
 nexus_port: 8082
 nexus_create_os_user: true
 nexus_os_user: 'nexus'
