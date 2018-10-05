@@ -93,5 +93,5 @@
     - restart nexus
 
 - name: Enabled Nexus service 
-  service: name=nexus enabled=true
+  service: name=nexus enabled=yes
 
